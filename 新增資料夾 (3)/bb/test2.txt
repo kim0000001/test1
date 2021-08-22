@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+main() { 
+float h,w,bmi; 
+cout<<"Please enter your height(m):";
+cin>>h;
+cout<<"Please enter your weight(kg):";
+cin>>w;
+bmi=w/(h*h);
+cout<<"Your BMI is: "<<bmi;
+cout<<endl;
+system("Pause");
+}

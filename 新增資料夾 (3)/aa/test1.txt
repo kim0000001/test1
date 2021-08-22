@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n = 1;
+  switch(n) {
+    case 1:
+      cout << "可樂";
+    case 2:
+      cout << "雪碧";
+    case 3:
+      cout << "紅茶";
+    default:
+      cout << "無效";
+  }
+}
